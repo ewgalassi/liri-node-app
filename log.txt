@@ -1,0 +1,21 @@
+C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js spotify-this-song god called in sick today 
+
+Artist: "AFI"
+
+Song: "God Called In Sick Today"
+
+Spotify sample: "https://open.spotify.com/artist/19I4tYiChJoxEO5EuviXpz"
+
+Album: "AFI"
+undefined
+undefined
+undefined
+undefinedC:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js movie-this a clockwork orange 
+Title: A Clockwork Orange
+Release Year: 1971
+IMDb Rating: 8.3
+Rotten Tomatoes Rating: 89%
+Country: UK, USA
+Language: English
+Plot: In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.
+Actors: Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke
