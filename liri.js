@@ -34,7 +34,7 @@ switch (command) {
 function concertThis() {
     request("https://rest.bandsintown.com/artists/" + searchItem + "/events?app_id=codingbootcamp", function (error, response, body) {
         if (!error && response.statusCode === 200) {
-            console.log("This band is playing at: " + JSON.parse(body)[0].venue.name + ", " + JSON.parse(body)[0].venue.city + ", " + JSON.parse(body)[0].venue.region);
+            console.log("\nThis band is playing at " + JSON.parse(body)[0].venue.name + ", " + JSON.parse(body)[0].venue.city + ", " + JSON.parse(body)[0].venue.region);
             console.log(moment(JSON.parse(body)[0].datetime).format('MM/DD/YYYY'));
         }
     });
@@ -49,7 +49,10 @@ function spotifyThis() {
           return console.log('Error occurred: ' + err);
         }
        
-      console.log(JSON.stringify(response.tracks.items[0].album.name)); 
+      console.log("\nArtist: " + JSON.stringify(response.tracks.items[0].album.artists[0].name)); 
+      console.log("\nSong: " + JSON.stringify(response.tracks.items[0].name));
+      console.log("\nSpotify sample: " + JSON.stringify(response.tracks.items[0].album.artists[0].external_urls.spotify));
+      console.log("\nAlbum: " + JSON.stringify(response.tracks.items[0].album.name));
       });
 };
 
