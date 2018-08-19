@@ -45,8 +45,9 @@ switch (command) {
 };
 
 function concertThis() {
-    request("https://rest.bandsintown.com/artists/" + searchItem + "/events?app_id=codingbootcamp", function (error, response, body) {
+    request("https://rest.bandsintown.com/artists/" + searchItem + "/events?app_id=f894bf9c5728ecd24da5e70f7342e9c7", function (error, response, body) {
         if (!error && response.statusCode === 200) {
+            console.log(JSON.stringify(body));
             dataLine1 = "\nThis band is playing at " + JSON.parse(body)[0].venue.name + ", " + JSON.parse(body)[0].venue.city + ", " + JSON.parse(body)[0].venue.region;
             dataLine2 = moment(JSON.parse(body)[0].datetime).format('MM/DD/YYYY');
             console.log(dataLine1);
