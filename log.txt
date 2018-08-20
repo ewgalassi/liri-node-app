@@ -1,4 +1,4 @@
-C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js spotify-this-song god called in sick today 
+﻿C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js spotify-this-song god called in sick today 
 
 Artist: "AFI"
 
@@ -28,60 +28,25 @@ Country: UK, USA
 Language: English
 Plot: In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.
 Actors: Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke
-C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js spotify-this-song god called in sick today 
-
-Artist: "AFI"
-
-Song: "God Called In Sick Today"
-
-Spotify sample: "https://open.spotify.com/artist/19I4tYiChJoxEO5EuviXpz"
-
-Album: "AFI"
+C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri concert-this imagine dragons 
+This band is playing at Evolve World Tour, Maxeville, 
+08/21/2018
 undefined
 undefined
 undefined
 undefined
-C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js spotify-this-song all along the watchtower 
+undefined
+undefined
+C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js spotify-this-song if you wanna be happy 
 
-Artist: "Jimi Hendrix"
+Artist: "Jimmy Soul"
 
-Song: "All Along the Watchtower"
+Song: "If You Wanna Be Happy"
 
-Spotify sample: "https://open.spotify.com/artist/776Uo845nYHJpNaStv1Ds4"
+Spotify sample: "https://open.spotify.com/artist/7k4MYPtpz3fAViMuuLi9ry"
 
-Album: "Electric Ladyland"
+Album: "Frank Guida Presents: Jimmy Soul \"If You Wanna Be Happy\""
 undefined
 undefined
 undefined
 undefined
-C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js movie-this the godfather 
-Title: The Godfather
-Release Year: 1972
-IMDb Rating: 9.2
-Rotten Tomatoes Rating: 98%
-Country: USA
-Language: English, Italian, Latin
-Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
-Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
-C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js spotify-this-song a-punk 
-
-Artist: "Vampire Weekend"
-
-Song: "A-Punk"
-
-Spotify sample: "https://open.spotify.com/artist/5BvJzeQpmsdsFp4HGUYUEx"
-
-Album: "Vampire Weekend"
-undefined
-undefined
-undefined
-undefined
-C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri.js movie-this super troopers 
-Title: Super Troopers
-Release Year: 2001
-IMDb Rating: 7.1
-Rotten Tomatoes Rating: 35%
-Country: USA
-Language: English, German, French
-Plot: Five Vermont state troopers, avid pranksters with a knack for screwing up, try to save their jobs and out-do the local police department by solving a crime.
-Actors: André Vippolis, Joey Kern, Geoffrey Arend, Erik Stolhanske

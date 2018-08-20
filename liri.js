@@ -27,6 +27,8 @@ for (i = 3; i < process.argv.length; i++) {
     searchItem += (process.argv[i] + " ");
 }
 
+searchItem = searchItem.trim();
+
 switch (command) {
     case "concert-this":
         concertThis();
@@ -47,8 +49,7 @@ switch (command) {
 function concertThis() {
     request("https://rest.bandsintown.com/artists/" + searchItem + "/events?app_id=f894bf9c5728ecd24da5e70f7342e9c7", function (error, response, body) {
         if (!error && response.statusCode === 200) {
-            console.log(JSON.stringify(body));
-            dataLine1 = "\nThis band is playing at " + JSON.parse(body)[0].venue.name + ", " + JSON.parse(body)[0].venue.city + ", " + JSON.parse(body)[0].venue.region;
+            dataLine1 = "This band is playing at " + JSON.parse(body)[0].venue.name + ", " + JSON.parse(body)[0].venue.city + ", " + JSON.parse(body)[0].venue.region + ", " + JSON.parse(body)[0].venue.country;
             dataLine2 = moment(JSON.parse(body)[0].datetime).format('MM/DD/YYYY');
             console.log(dataLine1);
             console.log(dataLine2);
@@ -61,20 +62,20 @@ function spotifyThis() {
     if (!searchItem) {
         searchItem = "the sign"
     }
-    spotify.search({ type: "track", query: searchItem }, function(err, response) {
+    spotify.search({ type: "track", query: searchItem }, function (err, response) {
         if (err) {
-          return console.log('Error occurred: ' + err);
+            return console.log('Error occurred: ' + err);
         }
-       dataLine1 = "\nArtist: " + JSON.stringify(response.tracks.items[0].album.artists[0].name);
-       dataLine2 = "\nSong: " + JSON.stringify(response.tracks.items[0].name);
-       dataLine3 = "\nSpotify sample: " + JSON.stringify(response.tracks.items[0].album.artists[0].external_urls.spotify);
-       dataLine4 = "\nAlbum: " + JSON.stringify(response.tracks.items[0].album.name);
-      console.log(dataLine1); 
-      console.log(dataLine2);
-      console.log(dataLine3);
-      console.log(dataLine4);
-      logFile();
-      });
+        dataLine1 = "\nArtist: " + JSON.stringify(response.tracks.items[0].album.artists[0].name);
+        dataLine2 = "\nSong: " + JSON.stringify(response.tracks.items[0].name);
+        dataLine3 = "\nSpotify sample: " + JSON.stringify(response.tracks.items[0].album.artists[0].external_urls.spotify);
+        dataLine4 = "\nAlbum: " + JSON.stringify(response.tracks.items[0].album.name);
+        console.log(dataLine1);
+        console.log(dataLine2);
+        console.log(dataLine3);
+        console.log(dataLine4);
+        logFile();
+    });
 };
 
 function movieThis() {
@@ -105,14 +106,14 @@ function movieThis() {
 };
 
 function doWhat() {
-    fs.readFile("random.txt", "utf8", function(error, data) {
+    fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
             return console.log(error);
-          }
-          var dataArr = data.split(",");
-          command = dataArr[0];
-          searchItem = dataArr[1];
-          spotifyThis();
+        }
+        var dataArr = data.split(",");
+        command = dataArr[0];
+        searchItem = dataArr[1];
+        spotifyThis();
     })
 };
 
