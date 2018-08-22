@@ -50,3 +50,16 @@ undefined
 undefined
 undefined
 undefined
+C:\Program Files\nodejs\node.exe C:\Users\danza\OneDrive\Desktop\Bootcamp\homework\liri-node-app\liri spotify-this-song 
+
+Artist: "Ace of Base"
+
+Song: "The Sign"
+
+Spotify sample: "https://open.spotify.com/artist/5ksRONqssB7BR161NTtJAm"
+
+Album: "The Sign (US Album) [Remastered]"
+undefined
+undefined
+undefined
+undefined

@@ -60,7 +60,7 @@ function concertThis() {
 
 function spotifyThis() {
     if (!searchItem) {
-        searchItem = "the sign"
+        searchItem = "the sign ace of base"
     }
     spotify.search({ type: "track", query: searchItem }, function (err, response) {
         if (err) {
