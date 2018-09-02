@@ -21,3 +21,6 @@ You will need to put your API keys in the `.env` file.
 
 ### Log.txt
 Your commands and the data you got back will be logged in `log.txt`.
+
+### If you have any issues
+Please contact me, I am regularly updating my projects.
