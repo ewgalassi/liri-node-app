@@ -24,3 +24,6 @@ Your commands and the data you got back will be logged in `log.txt`.
 
 ### If you have any issues
 Please contact me, I am regularly updating my projects.
+
+### Languages and resources
+This app uses JavaScript, Node.js, and API calls.
